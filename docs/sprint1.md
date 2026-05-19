@@ -18,6 +18,8 @@
 
 ### Burn Down Chart
 
+Sprint 1 velocity = 19.
+
 ![JR Boating: Sprint 1: Burn Down Chart](images/sprint1-burndown.png "JR Boating: Sprint 1: Burn Down Chart")
 
     Sprint 1: Burn Down Chart

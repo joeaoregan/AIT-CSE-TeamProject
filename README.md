@@ -146,8 +146,12 @@
 
 ## Code Coverage
 
-![JR Boating: Code Coverage](docs/images/code-coverage.png "JR Boating: Code Coverage")
+![Code Coverage Summary](docs/images/code-coverage.png "Code Coverage Summary")
 
-    Code Coverage 
+    Code Coverage Summary
+
+![Code Coverage Detailed](docs/images/code-coverage-detailed.png "Code Coverage Detailed")
+
+    Code Coverage Detailed
 
 </details>
