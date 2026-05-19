@@ -8,8 +8,12 @@ import javax.faces.bean.ManagedBean;
 
 @ManagedBean
 public class ImageView {
-	private ArrayList<String> images;
-    
+
+    private ArrayList<String> images;
+
+    /**
+     * Initialise the list of images, to be used in the view.
+     */
     @PostConstruct
     public void init() {
         images = new ArrayList<String>();
@@ -17,12 +21,12 @@ public class ImageView {
             images.add("boat" + i + ".jpg");
         }
     }
- 
+
     public ArrayList<String> getImages() {
         return images;
     }
 
     public void setImages(ArrayList<String> images) {
-    	this.images =images;
+        this.images = images;
     }
 }

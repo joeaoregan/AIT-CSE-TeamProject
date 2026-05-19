@@ -5,6 +5,9 @@ import javax.faces.context.FacesContext;
 
 public class Helper {
 
+    /**
+     * Get a managed bean from the JSF context, by name and type.
+     */
     public static <T> T getBean(String beanName, Class<T> type) {
 
         // Get the FacesContext object.
@@ -15,8 +18,8 @@ public class Helper {
 
         // Evaluate an EL expression, to get the bean with the specified name.
         return application.evaluateExpressionGet(
-        		context, 
-        		"#"+"{" + beanName + "}",  
-        		type);
+                context,
+                "#" + "{" + beanName + "}",
+                type);
     }
 }
