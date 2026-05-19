@@ -2,10 +2,10 @@
 
 ### Goal
 
-- A registered customer will be able to search the site, reserve a boat, edit boat bookings and pay a deposit.
-- The manager will be able to create employee accounts and facilitate adding account details, boat prices and the pricing structure.
+- A registered [Customer](users.md/#customer) will be able to search the site, reserve a boat, edit boat bookings and pay a deposit.
+- The [Manager](users.md/#manager) will be able to create employee accounts and facilitate adding account details, boat prices and the pricing structure.
 - The site will be intuitive to navigate and have a pleasant appearance.
-- The front desk staff and skipper will be able to login and out of the site.
+- The [Front Desk](users.md/#front-desk) staff and [Skipper](users.md/#skipper) will be able to login and out of the site.
 
 ### Burn Down Chart
 

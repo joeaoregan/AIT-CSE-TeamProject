@@ -25,7 +25,7 @@ Result for Test Run - 001
 | 55                    | 55                                        | 23/08/2018 09:50          | 45                                 | 10                                 | 1                                     | 8                                                     |
 | 55                    | 55                                        | 23/08/2018 16:00          | 48                                 | 7                                  | 0                                     | 7                                                     |
 
-## Detailed Test Results For:
+## Detailed Test Results
 
 1. [Test Run 1](test-run-1.md)
 1. [Test Run 2](test-run-2.md)

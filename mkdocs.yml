@@ -64,6 +64,7 @@ nav:
     - Customer: user-stories/customer.md
     - Front Desk: user-stories/front-desk.md
     - Skipper: user-stories/skipper.md
+  - Users: users.md
   - Definition of Done: definition-of-done.md
   - Sprint 1: sprint1.md
   - Sprint 2: sprint2.md
