@@ -1,27 +1,31 @@
 ![Home](images/index.jpg "Home")
 
-    JR Boating: Home
+    Home
 
 ![Register](images/register.jpg "Register")
 
-    JR Boating: Register
+    Register
 
 ![Boat Details](images/boats.jpg "Boat Details")
 
-    JR Boating: Boat Details
+    Boat Details
 
 ![Login](images/login.jpg "Login")
 
-    JR Boating: Login
+    Login
 
 ![Manager Home](images/manager-home.jpg "Manager Home")
 
-    JR Boating: Manager Home
+    Manager Home
 
 ![Manage Users](images/manager-users.jpg "Manage users")
 
-    JR Boating: Manage users
+    Manage users
 
 ![Manage Inventory](images/manager-inventory.jpg "Manage inventory")
 
-    JR Boating: Manage inventory
+    Manage inventory
+
+![Requirements](images/requirement.jpg "Requirements")
+
+    Requirements
