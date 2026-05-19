@@ -18,10 +18,15 @@
 
 ## Labs
 
-1. **Bait Shop Lab** HTML, CSS
+1. **Labs** HTML, CSS
+    - [Exercise 1 Basic HTML Page (Bait Shop)](https://joeaoregan.github.io/AIT-CSE-TeamProject/labs/exercise-1/)
+    - [Exercise 2.1 CSS](https://joeaoregan.github.io/AIT-CSE-TeamProject/labs/exercise-2/1/)
+    - [Exercise 2.2 CSS – Box Model](https://joeaoregan.github.io/AIT-CSE-TeamProject/labs/exercise-2/2/)
+    - [Exercise 2.3 CSS – Box Model – Floating elements](https://joeaoregan.github.io/AIT-CSE-TeamProject/labs/exercise-2/3/)
+    - [Exercise 2.4 (Halloween Store)](https://joeaoregan.github.io/AIT-CSE-TeamProject/labs/exercise-2/4/)
 2. **JSF App**
 3. **JSF Table**
-4. **JSF Tags**
+4. [JSF Tags](https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/tags/)
 
 ---
 
