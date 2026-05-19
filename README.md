@@ -77,6 +77,9 @@
 
     Requirements
 
+![Wireframe](images/wireframe1.png "Wireframe")
+
+    Wireframe
 </details>
 
 <details closed>
@@ -155,3 +158,7 @@
     Code Coverage Detailed
 
 </details>
+
+### Wireframe
+
+<img src="docs/images/wireframe1.png" title="Register" height="150"/>
