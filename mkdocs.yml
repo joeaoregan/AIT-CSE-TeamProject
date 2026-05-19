@@ -58,6 +58,7 @@ nav:
       - Linkedin: https://www.linkedin.com/in/joeaoregan/
       - GitHub: https://github.com/joeaoregan
   - Assignment: assignment.md
+  - Functional Requirements: functional-requirements.md
   - User Stories: 
     - Overview: user-stories/index.md
     - Manager: user-stories/manager.md
