@@ -1,3 +1,7 @@
+[Starter Files](https://github.com/joeaoregan/AIT-CSE-TeamProject/tree/master/starter_files)  
+[index.html](https://github.com/joeaoregan/AIT-CSE-TeamProject/blob/master/Labs/Lab%201%20Bait%20Shop/index.html)  
+[contact.html](https://github.com/joeaoregan/AIT-CSE-TeamProject/blob/master/Labs/Lab%201%20Bait%20Shop/contact.html)
+
 ## Exercise #1 Basic html page
 
 ### Head Section
@@ -27,8 +31,12 @@
 
 ![favicon](pic1.png)
 
-   	favicon
+   	Figure 1. favicon
 
 ![Bait Shop](pic2.png)
 
+	Figure 2. Bait Shop
+
 ![Under Construction](pic3.png)
+
+	Figure 3. Under Construction
