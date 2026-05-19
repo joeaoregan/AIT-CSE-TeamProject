@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Dates</title>
+</h:head>
+<body>
+<h:form>
+	<h3>Register at our hotel</h3>
+	<p:messages/>
+	<b>Arrival Date:</b>
+  	<p:calendar value="#{dateBean.startDate}"
+		required="true"
+		requiredMessage="Start date required"/><br/>
+	<b>Departure Date:</b>
+	<p:calendar value="#{dateBean.endDate}"
+		required="true"
+		requiredMessage="End date required"/><br/>	
+	<p:commandButton action="#{dateBean.register}"
+		value="Register" ajax="false"/><br/>
+	</h:form>	
+</body>
+</html>

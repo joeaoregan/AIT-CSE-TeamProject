@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Rating</title>
+</h:head>
+<body>
+<h:form>
+<h:panelGrid columns="2" styleClass="formTable">
+Rooms:
+<h:panelGroup>
+<p:rating value="#{ratingBean.roomRating}" readonly="true"/><br/>
+(#{ratingBean.roomRating} out of 5)
+</h:panelGroup>
+Restaurant:
+<h:panelGroup>
+<p:rating value="#{ratingBean.restaurantRating}"
+stars="10" readonly="true"/><br/>
+(#{ratingBean.restaurantRating} out of 10)
+</h:panelGroup>
+</h:panelGrid>
+</h:form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Spinners</title>
+</h:head>
+
+<body>
+	<h:form>
+		<p>Example 1</p>
+		&deg;F:
+		<p:spinner min="32" max="212" value="#{temperatureBean.fahr}" />
+		<p:commandButton value="Convert to C" ajax="false" />
+		#{temperatureBean.fahr}&deg;F = #{temperatureBean.cel}&deg;C
+
+		<p>Example 2</p>
+		&deg;C:
+		<p:spinner min="0" max="100" stepFactor="0.5"
+			value="#{celciusBean.cel}" />
+		<p:commandButton value="Convert to F" ajax="false" />
+		#{celciusBean.cel}&deg;C = #{celciusBean.fahr}&deg;F
+		
+		<p>Example 3</p>
+		US Dollars:
+		<p:spinner prefix="$" value="#{currencyBean.dollars}" />
+		<p:commandButton value="Convert to Yen" ajax="false" />
+		$#{currencyBean.dollars} (USD) = &yen;#{currencyBean.yen} (JPY)
+	</h:form>
+
+</body>
+</html>
