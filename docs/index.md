@@ -1,5 +1,7 @@
 ## Team Project
 
+<img src="images/index.jpg" title="Home" width="640"/>
+
 ### Team Members
 
 | Name: | Student No: |
