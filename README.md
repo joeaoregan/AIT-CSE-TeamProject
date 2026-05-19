@@ -28,10 +28,10 @@
 ## Team Members
 | Name: | Student No: |
 | --- | --- |
-| **Joe O'Regan** | A00258304 |
+| [Joe O'Regan](https://github.com/joeaoregan) | A00258304 |
 | **Elaine Santos G Ottero** | A00248619 |
-| **Ademola Alade** | A00212817 |
-| **Kiev Reynolds** | A00258306 |
+| [Ademola Alade](https://github.com/demrott) | A00212817 |
+| [Kiev Reynolds](https://github.com/kievr) | A00258306 |
 | **Sorcha Bruton** | A00258344 |
 ---
 
