@@ -1,0 +1,92 @@
+site_name: Team Project (CSE, 2018)
+docs_dir: docs
+site_dir: site
+
+copyright: Copyright &copy; 2026 Joe O'Regan
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/joeaoregan/
+    - icon: fontawesome/brands/github
+      link: https://github.com/joeaoregan
+    - icon: material/certificate
+      link: https://www.credly.com/users/joe-o-regan
+    - icon: simple/githubpages
+      link: https://joeaoregan.github.io/      
+
+theme:
+  icon:
+    admonition:
+      note: material/account
+      success: material/account
+      warning: material/account
+      danger: material/account
+  logo: images/logo.png
+  palette: 
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+  name: material
+  favicon: images/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.follow
+    - navigation.footer
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.path
+    - navigation.top
+
+nav:
+  - Home: 
+    - index.md
+    - External Links:    
+      - Portfolio Home: https://joeaoregan.github.io/
+      - Linkedin: https://www.linkedin.com/in/joeaoregan/
+      - GitHub: https://github.com/joeaoregan
+  - Labs:
+    - Lab 1 Bait Shop: 
+      - Bait Shop: bait-shop/index.md
+      - Exercise 1: bait-shop/exercise-1/index.md
+  - JSF:
+    - JSF App: 
+      - Overview: jsf/app/index.md
+    - JSF Tables: 
+      - Overview: jsf/tables/index.md
+    - JSF Tags: 
+      - Overview: jsf/tags/index.md
+      
+  
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - def_list
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  
+  - material.extensions.preview:
+      configurations:
+        - targets:
+            include:
+              - bait-shop/*
+              - jsf/*
+              - index.md
+
+repo_url: https://github.com/joeaoregan/AIT-CSE-TeamProject
+repo_name: GitHub
+
+site_url: https://joeaoregan.github.io/AIT-CSE-TeamProject
