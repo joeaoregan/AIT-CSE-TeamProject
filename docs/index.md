@@ -17,4 +17,13 @@
 
 - [JSF Tags](jsf/tags/index.md)
 - [JSF App (Managed Beans)](jsf/app/index.md)
-- [JSF Table](jsf/tables/index.md)
+- [JSF Table Exercises](jsf/tables/index.md):
+    1. [A simple table displaying data.](jsf/tables/exercise1.md)
+    2. [Editing the table.](jsf/tables/exercise2.md)
+    3. [Deleting a row from the table.](jsf/tables/exercise3.md)
+    4. [Adding a row to the table.](jsf/tables/exercise4.md)
+- [JSF Table Examples](jsf/tables/examples/index.md):
+    1. [A simple table displaying data with style sheet](jsf/tables/examples/example1.md)
+    2. [Editing values in the table](jsf/tables/examples/example2.md)
+    3. [Delete a row from the table](jsf/tables/examples/example3.md)
+    4. [Adding a row to the table](jsf/tables/examples/example4.md)

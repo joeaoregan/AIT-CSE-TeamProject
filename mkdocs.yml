@@ -66,16 +66,25 @@ nav:
       - Exercise 2.2: labs/exercise-2/2/index.md
       - Exercise 2.3: labs/exercise-2/3/index.md
       - Exercise 2.4: labs/exercise-2/4/index.md
-  - JSF:
-    - JSF Tags: 
-      - Overview: jsf/tags/index.md
-    - JSF App (Managed Beans): 
-      - Overview: jsf/app/index.md
-      - Intro to JSF Managed Beans: jsf/app/intro-to-managed-beans/index.md
-      - Defining JSF Managed Beans: jsf/app/defining-jsf-managed-beans/index.md
-      - Navigating between JSF Pages: jsf/app/navigating-between-jsf-pages/index.md
-    - JSF Tables: 
-      - Overview: jsf/tables/index.md
+  - JSF Tags: 
+    - Overview: jsf/tags/index.md
+  - JSF App (Managed Beans): 
+    - Overview: jsf/app/index.md
+    - Intro to JSF Managed Beans: jsf/app/intro-to-managed-beans/index.md
+    - Defining JSF Managed Beans: jsf/app/defining-jsf-managed-beans/index.md
+    - Navigating between JSF Pages: jsf/app/navigating-between-jsf-pages/index.md
+  - JSF Tables: 
+    - Overview: jsf/tables/index.md
+    - 1. A simple table displaying data: jsf/tables/exercise1.md
+    - 2. Editing the table: jsf/tables/exercise2.md
+    - 3. Deleting a row from the table: jsf/tables/exercise3.md
+    - 4. Adding a row to the table: jsf/tables/exercise4.md
+  - JSF Table Examples:
+    - Overview: jsf/tables/examples/index.md
+    - Eg 1 A simple table displaying data with style sheet: jsf/tables/examples/example1.md
+    - Eg 2 Editing values in the table: jsf/tables/examples/example2.md
+    - Eg 3 Delete a row from the table: jsf/tables/examples/example3.md
+    - Eg 4 Adding a row to the table: jsf/tables/examples/example4.md
       
   
 markdown_extensions:
