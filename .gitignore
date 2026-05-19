@@ -27,7 +27,9 @@
 !/WebContent/resources/
 !/Screenshots/
 !*.jar
-<<<<<<< HEAD
-!/WebContent/snippets/*
-=======
->>>>>>> 350798aac4d583d20e0e855e4e03fcf2755a6476
+
+# Python
+venv/
+
+# MkDocs
+site/
