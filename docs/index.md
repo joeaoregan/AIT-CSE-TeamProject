@@ -15,6 +15,7 @@
 ### JR Boating
 
 - Assignment Specification: [JR Boating](assignment.md)
+- [Functional Requirements](functional-requirements.md)
 - [User Stories](user-stories/index.md)
     - [Manager](user-stories/manager.md)
     - [Customer](user-stories/customer.md)

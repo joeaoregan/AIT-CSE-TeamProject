@@ -35,6 +35,27 @@
 | **Sorcha Bruton** | A00258344 |
 ---
 
+## Documentation
+
+- [Documentation](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/)
+- Assignment Specification: [JR Boating](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/assignment/)
+- [Functional Requirements](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/functional-requirements/)
+- [User Stories](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/user-stories/)
+    - [Manager](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/user-stories/manager/)
+    - [Customer](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/user-stories/customer/)
+    - [Front Desk](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/user-stories/front-desk/)
+    - [Skipper](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/user-stories/skipper/)
+- [Users](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/users/)
+- [Definition of Done](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/definition-of-done/)
+- [Sprint 1](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/sprint1/)
+- [Sprint 2](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/sprint2/)
+- [Software Testing](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/software-testing/)
+    - [Test Run 1](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/test-run-1/)
+    - [Test Run 2](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/test-run-2/)
+    - [Test Run 3](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/test-run-3/)
+    - [Test Run 4](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/test-run-4/)
+- [Screenshots](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/screenshots/)
+
 <details closed>
 <summary>Screenshots<br/>
 <img src="docs/images/index.jpg" title="Home" height="120"/>
