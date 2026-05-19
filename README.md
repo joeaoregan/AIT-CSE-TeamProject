@@ -28,8 +28,8 @@
 3. **JSF Table**
 4. [JSF Tags](https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/tags/)
 5. [PrimeFaces](https://joeaoregan.github.io/AIT-CSE-TeamProject/primefaces/)
-    - xhtml: Primefaces/WebContent
-    - Beans: src/com/ait/jsf
+    - [xhtml](Primefaces/WebContent)
+    - [Beans](src/com/ait/jsf)
 
 ---
 
