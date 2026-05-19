@@ -214,7 +214,7 @@ As a Manager I want to edit boat details so that I can be certain the informatio
 
 **Narrative**
 
-As a Manager I want to Delete boat prices so that I can remove incorrect prices.
+As a Manager, I want to Delete boat prices, so that I can remove incorrect prices.
 
 **Acceptance Criteria**
 
@@ -231,7 +231,7 @@ As a Manager I want to Delete boat prices so that I can remove incorrect prices.
 
 **Narrative**
 
-As a Manager I want to Edit pricing so that I can make certain prices are up to date.
+As a Manager, I want to Edit pricing, so that I can make certain prices are up to date.
 
 **Acceptance Criteria**
 
@@ -253,7 +253,7 @@ As a Manager I want to Edit pricing so that I can make certain prices are up to 
 
 **Narrative**
 
-As a Manager I want to Log out of the system so that my account can be secure.
+As a Manager, I want to Log out of the system, so that my account can be secure.
 
 **Acceptance Criteria**
 
