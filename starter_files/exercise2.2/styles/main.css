@@ -1,0 +1,25 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+}
+h1, h2 {
+    color: blue;
+}
+h1 { 
+    font-size: 250%;
+    text-align: center;
+}
+h2 { 
+    font-size: 150%; 
+}
+ul {
+    line-height: 1.4;
+}
+a:hover {
+	font-weight: bold;
+}
+.copyright {
+    color: gray;
+    font-size: 90%;
+    text-align: right;
+}
