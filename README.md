@@ -37,39 +37,39 @@
 
 <details closed>
 <summary>Screenshots<br/>
-<img src="Screenshots/index.jpg" title="Home" height="120"/>
-<img src="Screenshots/register.jpg" title="Register" height="120"/>
-<img src="Screenshots/boats.jpg" title="Boat Details" height="120"/>
-<img src="Screenshots/login.jpg" title="Login" height="120"/>
-<img src="Screenshots/manager-home.jpg" title="Manager Home" height="120"/>
+<img src="docs/images/index.jpg" title="Home" height="120"/>
+<img src="docs/images/register.jpg" title="Register" height="120"/>
+<img src="docs/images/boats.jpg" title="Boat Details" height="120"/>
+<img src="docs/images/login.jpg" title="Login" height="120"/>
+<img src="docs/images/manager-home.jpg" title="Manager Home" height="120"/>
 <p><i>Click here for larger images, or individual thumbnails to go to raw images.</i></p>
 </summary>
 
-![Home](Screenshots/index.jpg "Home")
+![Home](docs/images/index.jpg "Home")
 
     JR Boating: Home
 
-![Register](Screenshots/register.jpg "Register")
+![Register](docs/images/register.jpg "Register")
 
     JR Boating: Register
 
-![Boat Details](Screenshots/boats.jpg "Boat Details")
+![Boat Details](docs/images/boats.jpg "Boat Details")
 
     JR Boating: Boat Details
 
-![Login](Screenshots/login.jpg "Login")
+![Login](docs/images/login.jpg "Login")
 
     JR Boating: Login
 
-![Manager Home](Screenshots/manager-home.jpg "Manager Home")
+![Manager Home](docs/images/manager-home.jpg "Manager Home")
 
     JR Boating: Manager Home
 
-![Manage Users](Screenshots/manager-users.jpg "Manage users")
+![Manage Users](docs/images/manager-users.jpg "Manage users")
 
     JR Boating: Manage users
 
-![Manage Inventory](Screenshots/manager-inventory.jpg "Manage inventory")
+![Manage Inventory](docs/images/manager-inventory.jpg "Manage inventory")
 
     JR Boating: Manage inventory
 
@@ -88,7 +88,7 @@
 
 <details closed>
 <summary>Sprint 1<br/>
-<img src="Screenshots/sprint1-burndown.png" title="Sprint 1" height="120"/>
+<img src="docs/images/sprint1-burndown.png" title="Sprint 1" height="120"/>
 <p><i>Click to Expand</i></p>
 </summary>
 
@@ -108,7 +108,7 @@
 | 10 | **Customer: Pay boat deposit** | Code, Unit Test, User Guide, System Test | - | - |
 
 
-![JR Boating: Sprint 1: Burn Down Chart](Screenshots/sprint1-burndown.png "JR Boating: Sprint 1: Burn Down Chart")
+![JR Boating: Sprint 1: Burn Down Chart](docs/images/sprint1-burndown.png "JR Boating: Sprint 1: Burn Down Chart")
 
     Sprint 1: Burn Down Chart
 
@@ -116,7 +116,7 @@
 
 <details closed>
 <summary>Sprint 2<br/>
-<img src="Screenshots/sprint2-burndown.png" title="Sprint 2" height="120"/>
+<img src="docs/images/sprint2-burndown.png" title="Sprint 2" height="120"/>
 <p><i>Click to Expand</i></p>
 </summary>
 
@@ -128,7 +128,7 @@
 * The site will be intuitive to navigate and have a pleasant appearance.
 * The front desk staff and skipper will be able to login and out of the site.
 
-![JR Boating: Sprint 2: Burn Down Chart](Screenshots/sprint2-burndown.png "JR Boating: Sprint 2: Burn Down Chart")
+![JR Boating: Sprint 2: Burn Down Chart](docs/images/sprint2-burndown.png "JR Boating: Sprint 2: Burn Down Chart")
 
     Sprint 2: Burn Down Chart 
 
@@ -136,13 +136,13 @@
 
 <details closed>
 <summary>Software Testing and Code Coverage<br/>
-<img src="Screenshots/code-coverage.png" title="Software Testing" height="120"/>
+<img src="docs/images/code-coverage.png" title="Software Testing" height="120"/>
 <p><i>Click here for Software Testing and Code Coverage Section</i></p>
 </summary>
 
 ## Code Coverage
 
-![JR Boating: Code Coverage](Screenshots/code-coverage.png "JR Boating: Code Coverage")
+![JR Boating: Code Coverage](docs/images/code-coverage.png "JR Boating: Code Coverage")
 
     Code Coverage 
 
