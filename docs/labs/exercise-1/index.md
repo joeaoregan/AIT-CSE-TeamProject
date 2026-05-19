@@ -1,3 +1,7 @@
+# Exercise 1 Bait Shop
+
+## Files
+
 [Starter Files](https://github.com/joeaoregan/AIT-CSE-TeamProject/tree/master/starter_files)  
 [index.html](https://github.com/joeaoregan/AIT-CSE-TeamProject/blob/master/Labs/Lab%201%20Bait%20Shop/index.html)  
 [contact.html](https://github.com/joeaoregan/AIT-CSE-TeamProject/blob/master/Labs/Lab%201%20Bait%20Shop/contact.html)

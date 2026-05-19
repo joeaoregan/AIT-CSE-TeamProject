@@ -1,8 +1,15 @@
+## Files
+
+[Starter Files](https://github.com/joeaoregan/AIT-CSE-TeamProject/tree/master/starter_files/exercise2.4)  
+[index.html](https://github.com/joeaoregan/AIT-CSE-TeamProject/blob/master/Labs/Lab%202%20Bait%20Shop/bait_shop/index.html)  
+[contact.html](https://github.com/joeaoregan/AIT-CSE-TeamProject/blob/master/Labs/Lab%202%20Bait%20Shop/bait_shop/contact.html)  
+[main.css](https://github.com/joeaoregan/AIT-CSE-TeamProject/blob/master/Labs/Lab%202%20Bait%20Shop/bait_shop/styles/main.css)  
+
 ## Team Project Exercise 2.4
 
-•	Open the HTML file given in the starter files. Create the .css file to format the page as shown.
+- Open the HTML file given in the starter files. Create the .css file to format the page as shown.
 
-![Halloween Store](pic1.png)
+    ![Halloween Store](pic1.png)
 
 ### Instructions
 
