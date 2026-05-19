@@ -58,9 +58,15 @@ nav:
       - Linkedin: https://www.linkedin.com/in/joeaoregan/
       - GitHub: https://github.com/joeaoregan
   - Labs:
-    - Lab 1 Bait Shop: 
-      - Bait Shop: bait-shop/index.md
-      - Exercise 1: bait-shop/exercise-1/index.md
+    - Labs: 
+      - Bait Shop: labs/index.md
+      - Exercise 1: labs/exercise-1/index.md
+      - Exercise 2:
+        - Overview: labs/exercise-2/index.md
+        - Exercise 2.1: labs/exercise-2/1/index.md
+        - Exercise 2.2: labs/exercise-2/2/index.md
+        - Exercise 2.3: labs/exercise-2/3/index.md
+        - Exercise 2.4: labs/exercise-2/4/index.md
   - JSF:
     - JSF App: 
       - Overview: jsf/app/index.md
