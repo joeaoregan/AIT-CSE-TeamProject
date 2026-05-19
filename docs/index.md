@@ -13,6 +13,7 @@
 ### JR Boating
 
 - Assignment Specification: [JR Boating](assignment.md)
+- [User Stories](user-stories/index.md)
 - [Definition of Done](definition-of-done.md)
 - [Sprint 1](sprint1.md)
 - [Sprint 2](sprint2.md)

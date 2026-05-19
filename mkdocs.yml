@@ -58,10 +58,22 @@ nav:
       - Linkedin: https://www.linkedin.com/in/joeaoregan/
       - GitHub: https://github.com/joeaoregan
   - Assignment: assignment.md
+  - User Stories: 
+    - Overview: user-stories/index.md
+    - Manager: user-stories/manager.md
+    - Customer: user-stories/customer.md
+    - Front Desk: user-stories/front-desk.md
+    - Skipper: user-stories/skipper.md
   - Definition of Done: definition-of-done.md
   - Sprint 1: sprint1.md
   - Sprint 2: sprint2.md
-  - Software Testing: software-testing.md
+  - Software Testing: 
+    - Overview: software-testing.md
+    - Detailed Test Runs:
+      - Test Run 1: test-run-1.md
+      - Test Run 2: test-run-2.md
+      - Test Run 3: test-run-3.md
+      - Test Run 4: test-run-4.md
   - Screenshots: screenshots.md
       
   
