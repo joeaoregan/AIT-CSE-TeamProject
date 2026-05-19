@@ -23,6 +23,8 @@
 
 ## JR Boating
 
+[Documentation](https://joeaoregan.github.io/AIT-CSE-TeamProject-CA/)
+
 ## Team Members
 | Name: | Student No: |
 | --- | --- |
