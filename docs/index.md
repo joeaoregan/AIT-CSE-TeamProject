@@ -27,3 +27,7 @@
     2. [Editing values in the table](jsf/tables/examples/example2.md)
     3. [Delete a row from the table](jsf/tables/examples/example3.md)
     4. [Adding a row to the table](jsf/tables/examples/example4.md)
+
+### PrimeFaces
+
+[Overview](primefaces/index.md)
