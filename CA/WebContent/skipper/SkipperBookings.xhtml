@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:body>
+	<ui:composition template="/templates/template.xhtml">
+		<ui:param name="title" value="JR Boating Bookings" />
+		<ui:param name="heading" value="Skipper Bookings" />
+
+		<ui:define name="menu">
+			<ui:include src="/menus/skipper.xhtml">
+				<ui:param name="defaultHeader" value="JR Boating" />
+			</ui:include>
+		</ui:define>
+
+		<ui:define name="content">
+			<div class="regDiv">
+				<h1 class="ui-widget-header ui-corner-all" align="center">Skipper
+					Bookings</h1>
+				<hr />
+
+				<h:form>
+					<p:growl id="growl" showDetail="true" sticky="true" />
+
+					<h2 class="heading">Days #{loginBean.loggedUser.firstName} Has
+						Been Booked For</h2>
+
+					<h:dataTable value="#{orderBean.allOrders}" var="row"
+						styleClass="displayTable" headerClass="displayTableHeader"
+						rowClasses="displayTableOddRow,displayTableEvenRow">
+
+						<h:column>
+							<f:facet name="header">Order ID</f:facet>
+							<h:inputText value="#{row.id}" rendered="#{row.canEdit}" />
+							<h:outputText value="#{row.id}" rendered="#{!row.canEdit}" />
+						</h:column>
+
+						<h:column>
+							<f:facet name="header">Customer Username</f:facet>
+							<h:inputText value="#{row.custUsername}"
+								rendered="#{row.canEdit}" />
+							<h:outputText value="#{row.custUsername}"
+								rendered="#{!row.canEdit}" />
+						</h:column>
+
+						<h:column>
+							<f:facet name="header">Day Booked For</f:facet>
+							<h:inputText value="#{row.dayHired}" rendered="#{row.canEdit}" />
+							<h:outputText value="#{row.dayHired}" rendered="#{!row.canEdit}" />
+						</h:column>
+
+					</h:dataTable>
+					<br />
+
+					<h:commandButton value="Save Changes"
+						action="#{userBean.saveAction}" styleClass="formbtn" />
+				</h:form>
+			</div>
+			<br />
+		</ui:define>
+	</ui:composition>
+</h:body>
+</html>

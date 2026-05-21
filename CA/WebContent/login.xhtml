@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+
+<h:body>
+	<ui:composition template="templates/template.xhtml">
+		<ui:param name="title" value="JR Boating Login" />
+		<ui:param name="heading" value="Login" />
+
+		<ui:define name="menu" id="header">
+			<ui:include
+				src="#{(loginBean.loggedInManager) ? '/menus/manager.xhtml' : 
+						(loginBean.loggedInSkipper ? '/menus/skipper.xhtml' : 
+						(loginBean.loggedInFDS ?'/menus/front-desk-staff.xhtml' : 
+						(loginBean.loggedInCustomer ?'/menus/customer.xhtml' : '/menus/logged-out.xhtml')))}">
+				<ui:param name="defaultHeader" value="JR Boating" />
+			</ui:include>
+		</ui:define>
+
+		<ui:define name="content">
+			<div class="regDiv" align="center">
+				<h1 class="ui-widget-header ui-corner-all" align="center">Already
+					Registered?</h1>
+				<hr />
+
+				<h:form>
+
+					<p:growl id="growl" showDetail="true" sticky="true" />
+
+
+					<p:inputText value="#{loginBean.username}" required="true"
+						id="username" requiredMessage="Username required"
+						a:placeholder="Username" a:autofocus="true"
+						title="Enter your username" />
+					<!-- 					<p:message for="username" /> -->
+
+					<p:password class="inpass" value="#{loginBean.password}"
+						feedback="true" id="password" required="true"
+						requiredMessage="Password required"
+						validatorMessage="Password must be 4 or more characters"
+						a:placeholder="Password" title="Enter your password">
+						<f:validateLength minimum="4" />
+					</p:password>
+					<!-- 					<p:message for="password" /> -->
+
+					<h:commandButton value="Login" action="#{loginBean.loginHandler}"
+						styleClass="formbtn" />
+				</h:form>
+
+				<br />
+
+				<h1 class="ui-widget-header ui-corner-all" align="center">New
+					Member</h1>
+				<hr />
+
+				<h:form>
+					<h:commandButton value="Register" action="/register.xhtml"
+						styleClass="formbtn" />
+				</h:form>
+			</div>
+			<br />
+		</ui:define>
+	</ui:composition>
+</h:body>
+</html>

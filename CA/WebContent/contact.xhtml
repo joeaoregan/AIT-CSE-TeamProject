@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+
+
+<h:body>
+	<ui:composition template="templates/template.xhtml">
+		<ui:param name="title" value="JR Boating About" />
+		<ui:param name="heading" value="Contact Us" />
+
+		<ui:define name="menu" id="header">
+			<ui:include
+				src="#{(loginBean.loggedInManager) ? '/menus/manager.xhtml' : 
+						(loginBean.loggedInSkipper ? '/menus/skipper.xhtml' : 
+						(loginBean.loggedInFDS ?'/menus/front-desk-staff.xhtml' : 
+						(loginBean.loggedInCustomer ?'/menus/customer.xhtml' : '/menus/logged-out.xhtml')))}">
+				<ui:param name="defaultHeader" value="JR Boating" />
+			</ui:include>
+		</ui:define>
+
+		<ui:define name="content">
+			<div class="regDiv" align="center">
+				<h1 class="ui-widget-header ui-corner-all" align="center">Contact
+					JR Boating</h1>
+				<hr />
+
+				<p>
+					Email us today: <a
+						href="mailto:deb@empirerecords.biz?subject=Blog Feedback">info@jrboating.ie</a>
+				</p>
+				<p>
+					Phone us : <a href="tel:+906412345">(090) 6412345</a>
+				</p>
+			</div>
+			<br />
+		</ui:define>
+
+	</ui:composition>
+</h:body>
+</html>
+

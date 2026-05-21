@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<body>
+	<ui:composition>
+		<h:graphicImage name="/image/canalBarge/canalBarge.jpg"
+			id="canalBargeIMG" style="height: 300px; width: 400px" />
+		<br />
+		<div style="text-align: left">
+			<br /> The <b>OCTO Fly C</b> from the Estivale range of canal boats
+			is the largest in our fleet at 15 metres long. It is the flagship
+			boat and despite being the longest it is easy to drive thanks to bow
+			thrusters.
+			<br/>
+			<br/>
+			<b>Price per day: </b>#{inventoryBean.findBoat("Canal Barge").price}<br/>
+			<b>Quantity in stock: </b>#{inventoryBean.findBoat("Canal Barge").quantity}
+		</div>		
+	</ui:composition>
+</body>
+</html>

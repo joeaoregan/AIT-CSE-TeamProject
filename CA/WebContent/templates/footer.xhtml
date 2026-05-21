@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<body>
+	<ui:composition>
+		<div align="center">
+			<h:form>
+				<table width="80%">
+					<tr>
+						<td>
+							<div align="center">
+								<h:commandLink action="/index.xhtml">Home</h:commandLink>
+								<br />
+								<h:commandLink action="/register.xhtml">Register</h:commandLink>
+								<br />
+								<h:commandLink action="/contact.xhtml">Contact</h:commandLink>
+								<br />
+								<h:commandLink action="/details.xhtml">Boats</h:commandLink>
+								<br />
+								<h:commandLink action="/login.xhtml">Login</h:commandLink>
+							</div>
+						</td>
+						<td>
+							<div align="center">
+								<br /> &copy;JRBoating (2018)<br /> <a
+									href="${additionalInfoBean.originalPage}">Back to
+									${additionalInfoBean.originalPage}</a>
+							</div>
+						</td>
+						<td style="text-align: left;"><br />
+						<b>Phone:</b> (090) 6412345 <br /> <b>Email:</b>
+							info@jrboating.ie</td>
+					</tr>
+				</table>
+				<br />
+
+			</h:form>
+		</div>
+	</ui:composition>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:body>
+	<ui:composition template="/templates/template.xhtml">
+		<ui:param name="title" value="JR Boating Reports" />
+		<ui:param name="heading" value="Manage Reports" />
+
+		<ui:define name="menu">
+			<ui:include src="/menus/manager.xhtml">
+				<ui:param name="defaultHeader" value="JR Boating" />
+			</ui:include>
+		</ui:define>
+
+
+		<ui:define name="content">
+			<div class="regDiv" id="main">
+				<h1 class="ui-widget-header ui-corner-all" align="center">Reports</h1>
+				<hr />
+
+				<h:form>
+					<h:dataTable value="#{orderBean.allOrders}" var="row"
+						styleClass="displayTable" headerClass="displayTableHeader"
+						rowClasses="displayTableOddRow,displayTableEvenRow">
+
+						<h:column>
+							<f:facet name="header">Order ID</f:facet>
+							<h:inputText value="#{row.id}" rendered="#{row.canEdit}" />
+							<h:outputText value="#{row.id}" rendered="#{!row.canEdit}" />
+						</h:column>
+
+						<h:column>
+							<f:facet name="header">Customer</f:facet>
+							<h:inputText value="#{row.custUsername}"
+								rendered="#{row.canEdit}" />
+							<h:outputText value="#{row.custUsername}"
+								rendered="#{!row.canEdit}" />
+						</h:column>
+
+						<h:column>
+							<f:facet name="header">Deposit Price</f:facet>
+							<h:inputText value="#{row.totalPricePayNow}"
+								rendered="#{row.canEdit}" />
+							<h:outputText value="#{row.totalPricePayNow}"
+								rendered="#{!row.canEdit}" />
+							<f:facet name="footer">Total: #{orderBean.totalDeposits()}</f:facet>
+						</h:column>
+
+						<h:column>
+							<f:facet name="header">Total Price</f:facet>
+							<h:inputText value="#{row.totalPrice()}"
+								rendered="#{row.canEdit}" />
+							<h:outputText value="#{row.totalPrice()}"
+								rendered="#{!row.canEdit}" />
+							<f:facet name="footer">Total: #{orderBean.orderTotal()}</f:facet>
+						</h:column>
+
+					</h:dataTable>
+					<br />
+				</h:form>
+			</div>
+			<br />
+		</ui:define>
+
+	</ui:composition>
+</h:body>
+</html>

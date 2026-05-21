@@ -1,0 +1,35 @@
+# Ignore this
+
+/.settings/
+/.settings/*
+/build/
+*.classpath
+*.project
+.tern-project
+/WebContent/WEB-INF/faces-config.xml
+/WebContent/META-INF/MANIFEST.MF
+*.jsdtscope
+*.prefs
+*.component
+*.container
+*.name
+/bin/
+/target/
+
+# Keep this
+
+!/src/*
+!.gitignore
+!README.md
+!/WebContent/WEB-INF/web.xml
+!/WebContent/WEB-INF/lib/
+!/WebContent/*.xhtml
+!/WebContent/resources/
+!/Screenshots/
+!*.jar
+
+# Python
+venv/
+
+# MkDocs
+site/
