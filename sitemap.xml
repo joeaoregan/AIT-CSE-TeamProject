@@ -2,98 +2,170 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/assignment/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/definition-of-done/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/functional-requirements/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/screenshots/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/sprint1/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/sprint2/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/users/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/software-testing/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/software-testing/test-run-1/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/software-testing/test-run-2/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/software-testing/test-run-3/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/software-testing/test-run-4/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/user-stories/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/user-stories/customer/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/user-stories/front-desk/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/user-stories/manager/</loc>
+         <lastmod>2026-05-21</lastmod>
+    </url>
+    <url>
+         <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/ca/user-stories/skipper/</loc>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/app/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/app/defining-jsf-managed-beans/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/app/intro-to-managed-beans/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/app/navigating-between-jsf-pages/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/tables/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/tables/exercise1/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/tables/exercise2/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/tables/exercise3/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/tables/exercise4/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/tables/examples/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/tables/examples/example1/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/tables/examples/example2/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/tables/examples/example3/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/tables/examples/example4/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/jsf/tags/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/labs/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/labs/exercise-1/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/labs/exercise-2/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/labs/exercise-2/1/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/labs/exercise-2/2/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/labs/exercise-2/3/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/labs/exercise-2/4/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
     <url>
          <loc>https://joeaoregan.github.io/AIT-CSE-TeamProject/primefaces/</loc>
-         <lastmod>2026-05-19</lastmod>
+         <lastmod>2026-05-21</lastmod>
     </url>
 </urlset>
