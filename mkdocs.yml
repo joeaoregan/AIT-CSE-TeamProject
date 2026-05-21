@@ -57,6 +57,28 @@ nav:
       - Portfolio Home: https://joeaoregan.github.io/
       - Linkedin: https://www.linkedin.com/in/joeaoregan/
       - GitHub: https://github.com/joeaoregan
+  - CA:
+    - Overview: ca/index.md
+    - Assignment: ca/assignment.md
+    - Functional Requirements: ca/functional-requirements.md
+    - User Stories: 
+      - Overview: ca/user-stories/index.md
+      - Manager: ca/user-stories/manager.md
+      - Customer: ca/user-stories/customer.md
+      - Front Desk: ca/user-stories/front-desk.md
+      - Skipper: ca/user-stories/skipper.md
+    - Users: ca/users.md
+    - Definition of Done: ca/definition-of-done.md
+    - Sprint 1: ca/sprint1.md
+    - Sprint 2: ca/sprint2.md
+    - Software Testing: 
+      - Overview: ca/software-testing/index.md
+      - Detailed Test Runs:
+        - Test Run 1: ca/software-testing/test-run-1.md
+        - Test Run 2: ca/software-testing/test-run-2.md
+        - Test Run 3: ca/software-testing/test-run-3.md
+        - Test Run 4: ca/software-testing/test-run-4.md
+    - Screenshots: ca/screenshots.md
   - Labs: 
     - Overview: labs/index.md
     - Exercise 1: labs/exercise-1/index.md
@@ -90,6 +112,7 @@ nav:
     - GitHub Links:
       - Code xhtml: https://github.com/joeaoregan/AIT-CSE-TeamProject/tree/master/Primefaces/WebContent
       - Code Beans: https://github.com/joeaoregan/AIT-CSE-TeamProject/tree/master/Primefaces/src/com/ait/jsf
+  - Screenshots: ca/screenshots.md
       
   
 markdown_extensions:

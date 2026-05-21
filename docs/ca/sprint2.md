@@ -11,6 +11,6 @@
 
 Sprint 2 Velocity = 59.
 
-![Sprint 2: Burn Down Chart](images/sprint2-burndown.png "Sprint 2: Burn Down Chart")
+![Sprint 2: Burn Down Chart](../images/sprint2-burndown.png "Sprint 2: Burn Down Chart")
 
     Sprint 2: Burn Down Chart 

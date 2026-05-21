@@ -1,6 +1,6 @@
 ## Team Project
 
-<img src="images/index.jpg" title="Home" width="640"/>
+<img src="../images/index.jpg" title="Home" width="640"/>
 
 ### Team Members
 
@@ -25,9 +25,9 @@
 - [Definition of Done](definition-of-done.md)
 - [Sprint 1](sprint1.md)
 - [Sprint 2](sprint2.md)
-- [Software Testing](software-testing.md)
-    - [Test Run 1](test-run-1.md)
-    - [Test Run 2](test-run-2.md)
-    - [Test Run 3](test-run-3.md)
-    - [Test Run 4](test-run-4.md)
+- [Software Testing](software-testing/index.md)
+    - [Test Run 1](software-testing/test-run-1.md)
+    - [Test Run 2](software-testing/test-run-2.md)
+    - [Test Run 3](software-testing/test-run-3.md)
+    - [Test Run 4](software-testing/test-run-4.md)
 - [Screenshots](screenshots.md)
