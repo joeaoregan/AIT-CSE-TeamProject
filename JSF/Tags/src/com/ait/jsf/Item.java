@@ -4,41 +4,46 @@
  */
 package com.ait.jsf;
 
+/**
+ * Item represents a product in the shopping cart. It contains the product ID
+ * and the quantity of the product.
+ */
 public class Item {
-	private int productID;
-	private int quantity;
 
-	public Item(int productID) {
-		this.productID = productID;
-		quantity = 0;
-	}
+    private int productID;
+    private int quantity;
 
-	public Item(int productID, int quantity) {
-		this.productID = productID;
-		this.quantity = quantity;
-	}
+    public Item(int productID) {
+        this.productID = productID;
+        quantity = 0;
+    }
 
-	public int getProductID() {
-		return productID;
-	}
+    public Item(int productID, int quantity) {
+        this.productID = productID;
+        this.quantity = quantity;
+    }
 
-	public void setProductID(int productID) {
-		this.productID = productID;
-	}
+    public int getProductID() {
+        return productID;
+    }
 
-	public int getQuantity() {
-		return quantity;
-	}
+    public void setProductID(int productID) {
+        this.productID = productID;
+    }
 
-	public void setquantity(int quantity) {
-		this.quantity = quantity;
-	}
+    public int getQuantity() {
+        return quantity;
+    }
 
-	public Boolean equals(Item item) {
-		if (productID == item.getProductID()) {
-			return true;
-		}
-		
-		return false;
-	}
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public Boolean equals(Item item) {
+        if (productID == item.getProductID()) {
+            return true;
+        }
+
+        return false;
+    }
 }
